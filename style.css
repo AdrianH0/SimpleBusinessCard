@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    opacity: 0.75;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #348cb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle_box{
+    text-align: center;
+    width: 100%;
+}
