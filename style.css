@@ -2,6 +2,10 @@ body {
     margin: 0;
     padding: 0;
     color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
 }
 
 h1 {
@@ -42,8 +46,8 @@ a {
 }
 
 .social_icon{
-    transition: all 0.3s ease-in-out;
-    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0 10px;
     border: 1px solid #fff;
     width: 72px;
     height: 72px;
@@ -56,9 +60,14 @@ a {
 
 .social_icon:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.175);
+  background-color: #459dc3;
+  /* rgba(255, 255, 255, 0.175); */
 }
 
 .social_icon a {
   font-size: 28px;
+}
+
+@@keyframes motion {
+
 }
